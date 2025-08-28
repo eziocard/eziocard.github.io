@@ -1,0 +1,11 @@
+table {
+    width: 90%;
+    max-height: 20px;
+    background-color: gray;
+    overflow-x: auto
+
+}
+td {
+    background-color: white;
+    height: 20px;
+}

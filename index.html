@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
+
+    <title>TODOLIST</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Todo List</h1>
+    </header> 
+    <section>
+        <form id="formulario">
+            <label for="tarea">Ingresar Tareas</label>
+            <input type="text" id="tarea" placeholder="ingresar Tareas" required>
+            <button type="submit">agregar</button>
+            
+        </form>
+    </section>
+    <section>
+        <table id = 'tabla'>
+        <caption>Lista de Tareas</caption>
+        <tr>
+            <th>Nro</th>
+            <th>Tarea</th>
+            <th>Completada</th>
+            <th>Borrar</th>
+        </tr>
+        <tr id = 'fila-vacia'>
+            <td> </th>
+            <td> </td>
+            <td><input type="checkbox" name="checkbox" value="si"></td>
+            <td><button>x</button></td>
+        </tr>
+      
+        </table>
+
+
+        
+
+    </section>
+</body>
+</html>
