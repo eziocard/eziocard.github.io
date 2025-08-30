@@ -20,27 +20,27 @@
             
         </form>
     </section>
+    <section id = "filtros">
+        <button onclick="filtrarCompletados()">Filtrar Completados</button>
+        <button onclick="mostrarTodo()">Mostrar Todo</button>
+    </section>
     <section>
         <table id = 'tabla'>
-        <caption>Lista de Tareas</caption>
+        <caption id = 'titulo-tabla'>Lista Tareas</caption>
         <tr>
-            <th>Nro</th>
+            <th>Id</th>
             <th>Tarea</th>
             <th>Completada</th>
             <th>Borrar</th>
         </tr>
         <tr id = 'fila-vacia'>
-            <td> </th>
-            <td> </td>
-            <td><input type="checkbox" name="checkbox" value="si"></td>
-            <td><button>x</button></td>
+            <td>0</th>
+            <td>No hay tareas agregadas</td>
+            <td><input type="checkbox" name="checkbox" value="si" disabled></td>
+            <td><button disabled>x</button></td>
         </tr>
       
         </table>
-
-
-        
-
     </section>
 </body>
 </html>

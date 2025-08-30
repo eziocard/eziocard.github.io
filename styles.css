@@ -1,9 +1,22 @@
+header,#formulario,#filtros{
+    margin-left: 5%;
+}
+#filtros {
+    margin-top: 20px;
+}
 table {
+    margin: 0 auto;
     width: 90%;
     max-height: 20px;
     background-color: gray;
     overflow-x: auto
 
+}
+#titulo-tabla{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 td {
     background-color: white;
