@@ -94,7 +94,7 @@ const mostrarTabla = () =>{
             tabla.innerHTML += `  <tr id = 'fila-vacia'>
             <td>0</th>
             <td>No hay tareas completadas</td>
-            <td><input type="checkbox" name="checkbox" value="si"></td>
+            <td><input type="checkbox" name="checkbox" disabled></td>
             <td><button>x</button></td>
         </tr>`;
         }else{
