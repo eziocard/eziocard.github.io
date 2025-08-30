@@ -95,7 +95,7 @@ const mostrarTabla = () =>{
             <td>0</th>
             <td>No hay tareas completadas</td>
             <td><input type="checkbox" name="checkbox" disabled></td>
-            <td><button>x</button></td>
+            <td><button disabled>x</button></td>
         </tr>`;
         }else{
          for (let tarea of compleadasList) {
