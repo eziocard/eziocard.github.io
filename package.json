@@ -1,11 +1,13 @@
 {
-  "name": "pokeapi",
+  "name": "entregas",
+
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build --base /pokeapi/",
+    "build": "vite build --base /entregas/",
+
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
