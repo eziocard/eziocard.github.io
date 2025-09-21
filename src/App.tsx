@@ -10,7 +10,7 @@ type cardlistType = {
   pf?: string;
 };
 function App() {
-  const [cardlist, setCardlist] = useState<cardlistType[]>([
+  const [cardlist] = useState<cardlistType[]>([
     { title: "Portafolio", src: portafolio, pf: "Entrega Portafolio" },
     { title: "todo-list", src: todolist, pf: "Entrega todo-list" },
   ]);

@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "build": "tsc -b && vite build --base /pokeapi/",
     "preview": "vite preview",
-   "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
