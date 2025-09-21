@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #a19f9f;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;  
+  min-height: 100vh; 
+  padding: 2rem 0;
+}
+
+#container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%; 
+}
+
+
+#titulo {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+}
+
+

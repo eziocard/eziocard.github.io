@@ -1,0 +1,27 @@
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin: 0;
+  width: 250px;
+  text-align: center;
+
+ 
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.65);
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.75);
+}
+
+.card-img-top {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+
+.btn {
+  margin-top: 0.5rem;
+}
