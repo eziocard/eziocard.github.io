@@ -8,18 +8,35 @@ type cardlistType = {
   title?: string;
   src?: string;
   pf?: string;
+  href?: string;
 };
 function App() {
   const [cardlist] = useState<cardlistType[]>([
-    { title: "Portafolio", src: portafolio, pf: "Entrega Portafolio" },
-    { title: "todo-list", src: todolist, pf: "Entrega todo-list" },
+    {
+      title: "Portafolio",
+      src: portafolio,
+      pf: "Entrega Portafolio",
+      href: "https://portafolio.rjlopezdiaz.xyz/",
+    },
+    {
+      title: "todo-list",
+      src: todolist,
+      pf: "Entrega todo-list",
+      href: "https://todolist.rjlopezdiaz.xyz/",
+    },
   ]);
   return (
     <main>
       <h1 id="titulo">Entregas</h1>
       <div id="container">
         {cardlist.map((e, index) => (
-          <Cards key={index} title={e.title} src={e.src} pf={e.pf} />
+          <Cards
+            key={index}
+            title={e.title}
+            src={e.src}
+            pf={e.pf}
+            href={e.href}
+          />
         ))}
       </div>
     </main>

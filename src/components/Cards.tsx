@@ -3,9 +3,10 @@ type Props = {
   title?: string;
   src?: string;
   pf?: string;
+  href?: string;
 };
 
-function Cards({ title, src, pf }: Props) {
+function Cards({ title, src, pf, href }: Props) {
   return (
     <article>
       <div className="card">
@@ -13,7 +14,7 @@ function Cards({ title, src, pf }: Props) {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{pf}</p>
-          <a href="#" className="btn btn-primary">
+          <a href={href} className="btn btn-primary">
             Ir a la Tarea
           </a>
         </div>
